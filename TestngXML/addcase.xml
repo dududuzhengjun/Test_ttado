@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="zentao">
+    <test name="addproject">
+        <!--<parameter name="casetitle1" value="功能性错误"/>-->
+        <!--<parameter name="precondition1" value="网络状态良好"/>-->
+        <!--<parameter name="step1a" value="你好"/>-->
+        <!--<parameter name="step2a" value="我好"/>-->
+        <!--<parameter name="step3a" value="大家好"/>-->
+        <!--<parameter name="expect1a" value="你好"/>-->
+        <!--<parameter name="expect2a" value="我好"/>-->
+        <!--<parameter name="expect3a" value="大家好"/>-->
+        <!--<parameter name="keywords1" value="求索"/>-->
+
+        <classes>
+            <class name="PagesTest.AddCaseTest"/>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="zentao">
+    <test name="need">
+        <!--<parameter name="beizhu1" value="无"/>-->
+        <!--<parameter name="name1" value="ecshop"/>-->
+        <!--<parameter name="contend1" value="这个需求真不错"/>-->
+        <!--<parameter name="actions1" value="用户名密码都正确，登录成功"/>-->
+
+        <classes>
+            <class name="PagesTest.AddNeedTest"/>
+        </classes>
+    </test>
+</suite>

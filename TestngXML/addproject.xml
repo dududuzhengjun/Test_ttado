@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="zentao">
+    <test name="addproject">
+        <!--<parameter name="projectname1" value="爱奇艺"/>-->
+        <!--<parameter name="projectcode1" value="求索教育"/>-->
+        <!--<parameter name="enddate1" value="2018-6-10"/>-->
+        <!--<parameter name="jobdate1" value="5"/>-->
+        <!--<parameter name="teamname1" value="三组"/>-->
+        <!--<parameter name="body1" value="这个项目真不错"/>-->
+
+        <classes>
+            <class name="PagesTest.AddProjectTest"/>
+        </classes>
+
+    </test>
+</suite>

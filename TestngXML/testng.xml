@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test">
+    <test name="TestNG1">
+        <classes>
+            <class name="TestNG">
+                <methods>
+                    <include name="Test1"/>
+                    <include name="Test"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!--<test name="TestNG2">-->
+        <!--<classes>-->
+            <!--<class name="Add_Bug">-->
+                <!--<methods>-->
+                    <!--<include name="subimitbug"></include>-->
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="TestNG3">-->
+        <!--<classes>-->
+            <!--<class name="Modified_data">-->
+                <!--<methods>-->
+                    <!--<include name="data"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>
