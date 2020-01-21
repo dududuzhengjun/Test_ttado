@@ -49,4 +49,5 @@ public class WebElementFind extends setUpUtils {
     public WebElement partialLinkText (String Element){
         return driver.findElement(By.partialLinkText(Element));
     }
+
 }
